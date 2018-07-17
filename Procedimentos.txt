@@ -1,0 +1,7 @@
+- Modelagem utilizando n = 3 grau
+
+- Estimar o oe221 
+
+- Fazer
+[numd,dend] = th2tf(oe111)
+[numc,denc] = d2cm(numd,dend,Ts)

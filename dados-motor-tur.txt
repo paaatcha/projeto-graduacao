@@ -1,0 +1,30 @@
+tensao - 11.9v - 23.46
+tensao - 11.9v - 24.30
+tensao - 11.9v - 24.50
+tensao - 11.9v - 24.50
+tensao - 11.9v - 24.09
+media - 24,164
+
+tensao - 9.52v - 24.30
+tensao - 9.52v - 23.88
+tensao - 9.52v - 23.67
+tensao - 9.52v - 23.67
+tensao - 9.52v - 23.88
+media - 23,88
+
+tensao - 7,14v - 23.25
+tensao - 7,14v - 23.88
+tensao - 7,14v - 23.46
+tensao - 7,14v - 24.09
+tensao - 7,14v - 23.67
+media - 23,67
+
+tensao - 4,76v - 22.83
+tensao - 4,76v - 23.88
+tensao - 4,76v - 23.04
+media - 23.25
+
+tensao - 2,38v - 16.13
+tensao - 2,38v - 15.92
+tensao - 2,38v - 16.34
+media - 16.13

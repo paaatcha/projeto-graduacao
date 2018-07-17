@@ -1,0 +1,73 @@
+[System]
+Name='FuzzyControl'
+Type='mamdani'
+Version=2.0
+NumInputs=1
+NumOutputs=1
+NumRules=19
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='position'
+Range=[-10 10]
+NumMFs=19
+MF1='E8':'trapmf',[-10 -10 -9 -8]
+MF2='E7':'trimf',[-9 -8 -7]
+MF3='E6':'trimf',[-8 -7 -6]
+MF4='E5':'trimf',[-7 -6 -5]
+MF5='E4':'trimf',[-6 -5 -4]
+MF6='E3':'trimf',[-5 -4 -3]
+MF7='E2':'trimf',[-4 -3 -2]
+MF8='E1':'trimf',[-3 -2 -1]
+MF9='E0':'trimf',[-2 -1 0]
+MF10='C':'trimf',[-0.3 0 0.3]
+MF11='D0':'trimf',[0 1 2]
+MF12='D1':'trimf',[1 2 3]
+MF13='D2':'trimf',[2 3 4]
+MF14='D3':'trimf',[3 4 5]
+MF15='D4':'trimf',[4 5 6]
+MF16='D5':'trimf',[5 6 7]
+MF17='D6':'trimf',[6 7 8]
+MF18='D7':'trimf',[7 8 9]
+MF19='D8':'trapmf',[8 9 10 10]
+
+[Output1]
+Name='output1'
+Range=[-10 10]
+NumMFs=11
+MF1='SE4':'trapmf',[-10 -10 -5 -4]
+MF2='SC':'trimf',[-0.3 0 0.3]
+MF3='SD2':'trimf',[2 3 4]
+MF4='SE3':'trimf',[-5 -4 -3]
+MF5='SE2':'trimf',[-4 -3 -2]
+MF6='SE1':'trimf',[-3 -2 -1]
+MF7='SD0':'trimf',[0 1 2]
+MF8='SE0':'trimf',[-2 -1 0]
+MF9='SD1':'trimf',[1 2 3]
+MF10='SD3':'trimf',[3 4 5]
+MF11='SD4':'trapmf',[4 5 10 10]
+
+[Rules]
+10, 2 (1) : 1
+9, 8 (1) : 1
+8, 6 (1) : 1
+7, 5 (1) : 1
+6, 4 (1) : 1
+5, 1 (1) : 1
+4, 1 (1) : 1
+3, 1 (1) : 1
+2, 1 (1) : 1
+1, 1 (1) : 1
+11, 7 (1) : 1
+12, 9 (1) : 1
+13, 3 (1) : 1
+14, 4 (1) : 1
+15, 11 (1) : 1
+16, 11 (1) : 1
+17, 11 (1) : 1
+18, 11 (1) : 1
+19, 11 (1) : 1

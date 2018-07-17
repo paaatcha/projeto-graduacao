@@ -1,0 +1,50 @@
+Posição: De 0 a 4 significa o quão longe esta da linha. E= Esquerda e D= Direita
+E0
+E1
+E3
+E3
+E4
+
+D0
+D1
+D2
+D3
+D4
+
+Derivada da posição: A primeira variavel diz a intensidade e a segunda para qual lada é a tendencia
+AE - Alta Esquerda
+ME - Media Esquerda
+BE - Baixa Esquerda
+
+AD - Alta Direita
+MD - Media Direita
+BD - Baixa Direita
+
+############ Base de regras ###############
+Baseado nas observações da variação do valor da posição e derivada da posição, temos:
+LE - Levemente a esquerda
+PE - Pouco a esquerda
+ME - Moderadamente a esquerda
+MUE - Muito a esquerda
+EE - Extrema Esquerda
+MEE - Muito Extrema Esquerda
+
+LD - Levemente a Direita
+PD - Pouco a Direita
+MD - Moderadamente a Direita
+MUD - Muito a Direita
+ED - Extrema Direita
+MED - Muito Extrema Direita
+
+
+Padrão: SE Pos E/OU DPos
+
+
+
+
+
+
+
+
+
+
